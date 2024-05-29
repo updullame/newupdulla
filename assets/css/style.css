@@ -268,10 +268,10 @@ button.mfp-close{
 }
 .caption-block .caption-title .title,
 .caption-block .caption-title .subtitle, .ongoing{
-    font-size: 3.4rem;
+    font-size: 2.6rem;
     font-family: var(--sowi-font-family-champagne-limousines);
     font-weight: bold;
-    line-height: 1;
+    line-height: 1.3;
 }
 .caption-block .caption-title .subtitle, .ongoing{
     font-size: 1.9rem;
