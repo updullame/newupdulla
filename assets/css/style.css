@@ -2,6 +2,10 @@
     src: url(../fonts/champagne-limousines/champagne-limousines.ttf);
     font-family: 'Champagne & Limousines';
 }
+@font-face {
+    src: url(../fonts/segoeui/MisticGlory.otf);
+    font-family: 'MisticGlory';
+}
 
 @font-face{
     src: url(../fonts/segoeui/segoeui.ttf);
@@ -22,7 +26,7 @@
     /* Colors: */
     --sowi-color-1d1d1d: #1D1D1D;
     --sowi-color-ffffff: #FFFFFF;
-    --sowi-color-f73576: #0A5EB0;
+    --sowi-color-f73576: #525CEB;
     --sowi-color-707070: #707070;
     --sowi-color-151515: #151515;
     --sowi-color-f2f2f2: #F2F2F2;
@@ -102,7 +106,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
     color: var(--sowi-color-ffffff);
 }
 
-
+/* Active icons flags EN-DE */
+/* Finish icons flags EN-DE */
 /* template */
 body{
     scroll-behavior: smooth;
@@ -266,10 +271,13 @@ button.mfp-close{
 .caption-block .caption-title, .ongoing{
     color: var(--sowi-color-f73576);
 }
-.caption-block .caption-title .title,
-.caption-block .caption-title .subtitle, .ongoing{
+.caption-block .caption-title .title, .ongoing{
     font-size: 2.6rem;
-    font-family: var(--sowi-font-family-champagne-limousines);
+    font-family: 'MisticGlory', sans-sarif;
+}
+.caption-block .caption-title .subtitle{
+    font-size: 2.6rem;
+    font-family: 'Champagne & Limousines', sans-sarif;
     font-weight: bold;
     line-height: 1.3;
 }
