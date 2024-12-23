@@ -272,8 +272,9 @@ button.mfp-close{
     color: var(--sowi-color-f73576);
 }
 .caption-block .caption-title .title, .ongoing{
-    font-size: 2.5rem;
+    font-size: 2.27rem;
     font-family: 'MisticGlory', sans-sarif;
+    line-height: 1.5;
 }
 .caption-block .caption-title .subtitle{
     font-size: 2.6rem;
