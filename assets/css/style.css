@@ -33,7 +33,7 @@
     
     /* Font/text values */
     --sowi-font-family-champagne-limousines: "Champagne & Limousines";
-    --sowi-font-family-segoe-ui: "Segoe UI";
+    --sowi-font-family-segoe-ui: "Champagne & Limousines";
     --sowi-font-family-font-awesome-5-free: "Font-Awesome-5";
     --sowi-font-style-normal: normal;
     --sowi-font-weight-bold: bold;
@@ -79,7 +79,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
     color: var(--sowi-color-ffffff);
 }
 .bold-text {
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-style: var(--sowi-font-style-normal);
     font-weight: var(--sowi-font-weight-bold);
     font-size: var(--sowi-font-size-24);
@@ -88,7 +88,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
     color: var(--sowi-color-ffffff);
 }
 .regular-text {
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-style: var(--sowi-font-style-normal);
     font-weight: var(--sowi-font-weight-normal);
     font-size: var(--sowi-font-size-24);
@@ -207,7 +207,7 @@ button.mfp-close{
 .btn-siwo{
     background: var(--sowi-color-f73576);
     color: var(--sowi-color-ffffff) !important;
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     border-radius: 3px;
     font-size: 14px;
     width: 140px;
@@ -287,7 +287,7 @@ button.mfp-close{
 }
 .caption-block .caption-content *{
     color: var(--sowi-color-ffffff);
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
 }
 @media (max-width: 758px){
 	.banner-home .height-540{
@@ -387,7 +387,7 @@ button.mfp-close{
 }
 .timeline-block .timeline-body .timeline-item .-date{
     color: var(--sowi-color-ffffff);
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-size: 14px;
 }
 
@@ -409,7 +409,7 @@ button.mfp-close{
     background: var(--sowi-color-1d1d1d);
 }
 .-title span{
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-size:var(--sowi-font-size-24);
 }
 /*
@@ -419,7 +419,7 @@ button.mfp-close{
 #filters-container .cbp-filter-item{
     position: relative;
     color: var(--sowi-color-f73576);
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-weight: bold;
     font-size: 1.2rem;
     cursor: pointer;
@@ -471,7 +471,7 @@ button.mfp-close{
 .grid-container .cbp-singlePage .list-pro{
     position: relative;
     color: var(--sowi-color-f73576) !important;
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
     font-weight: bold;
 }
 .grid-container .cbp-singlePage .list-pro::before{
@@ -496,7 +496,7 @@ button.mfp-close{
 }
 .contact-index .float-label label{
     font-weight: 300;
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
 }
 .contact-index .fy-send{
     position: absolute;
@@ -526,7 +526,7 @@ button.mfp-close{
     transform: translateY(-50%);
 }
 .contact-info{
-    font-family: var(--sowi-font-family-segoe-ui);
+    font-family: var(--sowi-font-family-champagne-limousines);
 }
 
 @media screen and (max-width: 768px){
@@ -605,4 +605,7 @@ button.mfp-close{
     background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
+}
+.desc{
+    color:#fff;
 }
